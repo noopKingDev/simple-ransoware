@@ -25,7 +25,6 @@ pub fn aes_encrypt(path: String, key: [u8; 32] ) -> Result<(), Box<dyn Error + S
     let _ = write(path_file_enc,&encrypted_text);
     let _ = remove_file(path);
 
-    println!("{}", String::from_utf8_lossy(&encrypted_text));
 
 Ok(())
 }

